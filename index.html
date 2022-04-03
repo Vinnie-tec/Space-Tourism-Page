@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,500&family=Barlow:ital,wght@0,400;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="preload" href="CSS/style.css" as="style">
+  <link rel="preload" href="JS/main.js" as="script">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+  <script src="JS/main.js" defer></script>
+</head>
+
+<body id="home">
+  <header class="primary_header">
+    <div>
+      <img class="logo" src="./assets/shared/logo.svg" alt="logo" srcset="">
+    </div>
+    <button class="mobile-nav-toggle" aria-controls="primary navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <nav>
+      <ul id="primary_nav" data-visible="false" class="primary_nav underline_indicator">
+        <li class="active"><a href="index.html"><span aria-hidden="true">00</span>Home</a></li>
+        <li><a href="destination-moon.html"><span aria-hidden="false">01</span>Destination</a></li>
+        <li><a href="crew-commander.html"><span aria-hidden="false">02</span>Crew</a></li>
+        <li><a href="technology-vehicle.html"><span aria-hidden="false">03</span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main_container main_home">
+    <div>
+      <h1>So, you want to travel to <span>Space</span></h1>
+      <p>Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</p>
+    </div>
+    <div>
+      <a href="destination-moon.html" class="large-button">Explore</a>
+    </div>
+  </main>
+</body>
+</html>

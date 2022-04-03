@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" onload="this.rel = 'stylesheet'" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400;1,500&family=Barlow:ital,wght@0,400;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="preload" href="CSS/style.css" as="style">
+  <link rel="preload" href="JS/main.js" as="script">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+  <script src="JS/main.js" defer></script>
+</head>
+<body id="Crew">
+
+  <header class="primary_header">
+    <div>
+      <img class="logo" src="./assets/shared/logo.svg" alt="logo" srcset="">
+    </div>
+    <button class="mobile-nav-toggle" aria-controls="primary navigation"><span class="sr-only" aria-expanded="false">Menu</span></button>
+    <nav>
+      <ul id="primary_nav" data-visible="false" class="primary_nav underline_indicator">
+        <li><a href="index.html"><span aria-hidden="true">00</span>Home</a></li>
+        <li><a href="destination-moon.html"><span aria-hidden="false">01</span>Destination</a></li>
+        <li class="active"><a href="crew-commander.html"><span aria-hidden="false">02</span>Crew</a></li>
+        <li><a href="technology-vehicle.html"><span aria-hidden="false">03</span>Technology</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="crew_container">
+    <div class="heading_crew"><h3 class="head_crew"><span>02</span>Meet your crew</h3></div>
+    <div class="crew_main_container">
+      <div class="crew_left">
+        <article class="crew_left_info">
+          <h1>Pilot<Span>Victor Glover</Span></h1>
+          <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.  </p>
+        </article>
+
+        <div class="crew_buttons">
+          <button onclick="window.location.href = 'crew-commander.html';"></button> 
+          <button onclick="window.location.href = 'crew-specialist.html';"></button> 
+          <button class="active" onclick="window.location.href = 'crew-pilot.html';"></button> 
+          <button onclick="window.location.href = 'crew-engineer.html';"></button> 
+        </div>
+      </div>
+
+      <div class="crew_image">
+        <img src="./assets/crew/image-victor-glover.png" alt="victor-glover" class="crew_img">
+      </div>
+    </div>
+
+    </div>
+
+  </main>
+</body>
+</html>
