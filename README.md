@@ -53,7 +53,7 @@ I planned on working more on responsive designs, exploring deep into JS and Reac
 
 - Frontend Mentor - [@Vinnie-tec](https://www.frontendmentor.io/profile/Vinnie-tec)
 - Twitter - [@VinnieOlamide](https://www.twitter.com/VinnieOlamide)
-- Linkedin - [@agbgoola-vincent](https://www.linkedin.com/in/agboola-vincent)
+- Linkedin - [@agboola-vincent](https://www.linkedin.com/in/agboola-vincent)
 
 ## Acknowledgments
 
