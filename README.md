@@ -20,13 +20,15 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./assets/Screenshot/screenshot.png)
-![Screenshot](./assets/Screenshot/screenshot2.png)
+![Desktop View](./assets/Screenshot/screenshot.png)
+![Desktop View](./assets/Screenshot/screenshot1.png)
+![Tablet View](./assets/Screenshot/screenshot2.png)
+![Tablet View](./assets/Screenshot/screenshot3.png)
+![Mobile View](./assets/Screenshot/screenshot5.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](http://127.0.0.1:5500/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Click me](https://vinnie-tec.github.io/Space-Tourism-Page/crew-engineer.html)
 
 ### Built with
 
