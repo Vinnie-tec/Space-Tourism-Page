@@ -58,3 +58,4 @@ I planned on working more on responsive designs, exploring deep into JS and Reac
 ## Acknowledgments
 
 All thanks to Scrimba's course of this project. I got help in some of the video. 
+#
